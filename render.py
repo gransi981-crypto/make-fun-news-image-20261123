@@ -17,10 +17,10 @@ BLUE = (26, 58, 107)
 GREY = (90, 86, 76)
 BAND = (20, 20, 20)
 
-SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
-SERIF_B = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
-SANS = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
-SANS_B = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIF_B = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+SANS = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+SANS_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 
 def font(path, size):
@@ -131,8 +131,7 @@ def draw_lead(d, fl):
     fl.para("Japan's Nikkei falls 5.06% on Monday and Hong Kong "
             "stocks touch a 19-month low, as the slide in US "
             "artificial-intelligence shares reaches Asia. Taiwan "
-            "shares swing 1,578 points in a day before buyers "
-            "steady the market.",
+            "shares swing 1,578 points in a day.",
             font(SERIF, 22), (36, 338, 600), 29)
     draw_market_chart(d, 668, 188, 320, 240)
     fl.para("TOKYO  ·  HONG KONG  ·  TAIPEI",
